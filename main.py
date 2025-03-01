@@ -36,7 +36,7 @@ def extract_text_from_website(url):
 
 
 # Extract the website content
-target_url = "https://www.churchofjesuschrist.org/?lang=eng"
+target_url = "https://www.hsin-pei-wang.com/"
 extracted_website_text = extract_text_from_website(target_url)
 
 # Save the extracted website text to a file (website_text.txt)
@@ -63,25 +63,25 @@ if len(prompt) > max_prompt_length:
     print("Warning: The prompt was too long and has been trimmed.")
 
 # Define the assistant's template for answering questions based on the website content
-lds_assistant_template = prompt + """
-You are an assistant with expertise in providing information and advice about the Church of Jesus Christ of Latter-day Saints. 
-Your role is to answer questions and provide insights based on the Church's teachings, beliefs, and activities. 
-If a question is not related to the Church, respond with, "I can't assist you with that, sorry!" 
+about_me = prompt + """
+You are an assistant with expertise in providing information and answering questions about PEI PEI WANG. 
+Your role is to help users understand its features, services, and content. 
+If a question is not related to PEI PEI WANG , respond with, "I can't assist you with that, sorry!" 
 Question: {question} 
-Answer: 
+Answer:
 """
 
 # Create a prompt template with the question as an input variable
-lds_assistant_prompt_template = PromptTemplate(
+about_me_assistant_prompt_template = PromptTemplate(
     input_variables=["question"],
-    template=lds_assistant_template
+    template=about_me
 )
 
 # Set up ChatOpenAI with the model and parameters (temperature and max tokens)
 llm = ChatOpenAI(model='gpt-4', temperature=0, max_tokens=256)
 
 # Create the LLM chain that connects the template and the model
-llm_chain = lds_assistant_prompt_template | llm
+llm_chain = about_me_assistant_prompt_template | llm
 
 
 # Define a function to query the language model with a given question
