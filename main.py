@@ -133,11 +133,6 @@ def query_llm(question):
 # Initialize the Flask application
 app = Flask(__name__)
 
-port = int(os.environ.get('PORT', 5000))
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=port)
-    
-
 # Route for the homepage that renders the index.html page
 @app.route("/")
 def index():
