@@ -4,6 +4,19 @@ from flask import Flask, render_template, request, jsonify
 from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 
+import os
+
+api_key = os.getenv("OPENAI_API_KEY")
+print(f"API Key: {api_key}")
+
+if api_key:
+    response = requests.post(
+        "https://api.openai.com/v1/chat/completions", 
+        headers={"Authorization": f"Bearer {api_key}"}
+    )
+    print(response.json())
+else:
+    print("API Key not found.")
 
 # Function to extract text from the website
 def extract_text_from_website(url):
@@ -120,6 +133,10 @@ def query_llm(question):
 # Initialize the Flask application
 app = Flask(__name__)
 
+port = int(os.environ.get('PORT', 5000))
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=port)
+    
 
 # Route for the homepage that renders the index.html page
 @app.route("/")
