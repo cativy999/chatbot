@@ -6,10 +6,12 @@
     <title>ABOUT PEI PEI WANG</title>
     <!-- Bootstrap CSS for styling -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Sans Flex Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex&display=swap" rel="stylesheet">
     <style>
         body {
             background: white;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Google Sans Flex', sans-serif; /* Updated font */
             color: black;
         }
         .chat-container {
@@ -43,6 +45,8 @@
             padding: 10px;
             border-radius: 15px;
             max-width: 75%;
+            display: flex;
+            align-items: flex-start;
         }
         .user-message {
             background: linear-gradient(135deg, #ff9a9e, #fad0c4); /* Gradient pink background */
@@ -53,6 +57,18 @@
         .bot-message {
             background: white;
             color: black;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .message-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+            background: url('/static/avatar.png') no-repeat center center; /* Reference to static file */
+            background-size: cover;
         }
         .input-group {
             position: relative;
@@ -118,7 +134,7 @@
                     return;
                 }
                 
-                // Append user message
+                // Append user message without avatar
                 $('#chatbox').append('<div class="message user-message">' + question + '</div>');
                 $('#chatbox').scrollTop($('#chatbox')[0].scrollHeight);
                 $('#question').val('');
@@ -133,12 +149,13 @@
                     success: function(response) {
                         $('#loading').hide();
                         const botResponse = response.response || 'No response available.';
-                        $('#chatbox').append('<div class="message bot-message">' + botResponse + '</div>');
+                        // Append bot message with avatar
+                        $('#chatbox').append('<div class="message bot-message"><div class="message-avatar"></div>' + botResponse + '</div>');
                         $('#chatbox').scrollTop($('#chatbox')[0].scrollHeight);
                     },
                     error: function() {
                         $('#loading').hide();
-                        $('#chatbox').append('<div class="message bot-message">There was an error processing your request.</div>');
+                        $('#chatbox').append('<div class="message bot-message"><div class="message-avatar"></div>There was an error processing your request.</div>');
                         $('#chatbox').scrollTop($('#chatbox')[0].scrollHeight);
                     }
                 });
