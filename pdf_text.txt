@@ -1,0 +1,78 @@
+About Me
+Hi, I'm Pei Pei! I'm an empathetic, creative, and passionate product designer with a background in UI/UX design and marketing. My journey has been shaped by my desire to learn, grow, and connect with 
+people from different backgrounds. I value authenticity, inclusivity, and kindness—believing that everyone is doing their best in life, and the best thing we can do is support one another.
+One thing that makes my story unique is how I got here. I won the U.S. Green Card Lottery, which gave me the opportunity to live in America, explore new cultures, learn a new language, and build a career 
+that I love. The experience has been both rewarding and challenging, but it has shaped me into who I am today. My friends and family describe me as creative, a good listener, and someone who is always 
+eager to help others.
+Linkdin: https://www.linkedin.com/in/pei-pei-wang-58a94b9b/
+What Drives Me?
+I’ve always been drawn to creativity and problem-solving. While I’m passionate about product design, my long-term aspiration is to build my own business. I love learning from others—whether it's about their 
+ideas, expertise, or unique perspectives. I believe that everyone has something valuable to bring to the table, and that’s what makes collaboration so powerful.
+For now, I’m focused on refining my skills in product design, enhancing user experiences, and contributing to projects that make an impact.
+Education
+Master of Business Administration (MBA) – Western Governors University
+Professional Experience (5 years of product design experiences)
+Product Designer | TravelPass Group
+Timeframe: Feb 2023 – Feb 2025
+
+Native App
+I led the design efforts for the TravelPass native app, overseeing two major redesigns that significantly improved functionality and usability. By conducting extensive user research and iterative usability 
+testing, I optimized the booking experience, resulting in a 50% increase in user efficiency. I created interactive prototypes and wireframes to validate design hypotheses before final implementation, ensuring 
+data-driven decision-making at every stage. Additionally, I developed a comprehensive design system to maintain brand consistency across platforms.
+Web and Mobile
+I contributed to the design of TravelPass.com for both web and mobile platforms, assisting with trip planning features and various pages on the main website. My work included developing and refining the 
+design system, creating low- and high-fidelity designs, building interactive prototypes, and conducting user testing.
+Web
+Beyond the app, I worked on enhancing Cable CRM, streamlining agent workflows, and improving the overall usability and interaction design to support business objectives. I conducted frequent user testing 
+with travel agent supervisors and managers, using prototypes to gather feedback. We regularly reviewed built pages with users to identify pain points and refine the interface, ensuring a better user 
+experience.
+
+Industry: Travel
+UX/UI Designer | Polynesian Cultural Center
+Timeframe: Jan 2023 – Mar 2023
+
+Native App
+I worked closely with stakeholders and product managers to redesign the center’s native app, focusing on increasing user engagement and information accessibility. The revamped UI introduced a cleaner, 
+more intuitive layout, enabling visitors to navigate the park, access schedules, and plan their experiences more efficiently. This redesign directly led to a 50% increase in user engagement and improved the 
+app’s overall adoption rate. My role encompassed the full end-to-end design process, from initial user research and information architecture mapping to high-fidelity prototyping and usability testing, ensuring 
+a seamless and engaging user experience.
+Industry: leisure, travel, and tourism
+
+UX/UI Designer | BKCO Inc.
+Timeframe: Oct 2021-Feb 2023
+
+Native App, Web, and Mobile Web
+I played a key role in designing the Blue Roof portal for web and mobile platforms, contributing significantly to the development of Brivity Home and Brivity Go native apps. My focus was on interaction design 
+and responsive UI, ensuring a seamless cross-platform experience. I also led the implementation of a scalable design system, streamlining design handoffs between teams and improving efficiency.
+Collaborating with real estate professionals, I leveraged my front-end development knowledge (HTML, CSS, basic JavaScript) to refine website structures, enhancing usability and increasing client satisfaction 
+by 80%. Additionally, I independently managed a CRM project, working closely with product managers and developers to optimize workflows, ultimately improving efficiency and boosting user satisfaction by 
+50% through targeted usability enhancements.
+
+Industry: Real Estate
+Freelance UX/UI Designer
+Timeframe: 2020 – 2023
+
+Native App, Web, and Mobile Web
+During my freelance work, I contributed to a variety of projects that strengthened my expertise in user interface design, accessibility, and interaction patterns
+ Nonprofit App – Focused on improving navigation flow and usability for transit users, enhancing accessibility and ease of use
+ Visual Boston – Developed a web animation prototype and a Figma-based design system, ensuring consistent branding and seamless interaction patterns across digital assets
+ Costa Vida Fresh Mexican Grill – Redesigned the mobile app to improve user experience, visual hierarchy, and accessibility, making the ordering process more intuitive
+ Card Killer & E-Business Card Startup – Contributed to the internal app system design, applying thoughtful UI/UX principles to create a frictionless user journey.
+
+Industry:Public Transportation, Restaurant, Technology, Information & Internet
+International Marketing Manager | ASEA*
+Jan 2018 - Nov 2019
+I managed product branding and marketing strategies across six Asian markets: Taiwan, Hong Kong, Thailand, Singapore, and Malaysia. I developed and localized marketing materials, ensuring cultural 
+adaptability and regional relevance. My role involved working closely with cross-functional teams, overseeing social media strategies, web promotions, and digital campaigns to enhance brand presence in 
+international markets. This experience strengthened my ability to understand global user behaviors and craft user-centered solutions, skills that have directly translated into my UX/UI design career.
+Skills & Expertise
+UX/UI Design: User research, usability testing, wireframing, prototyping, interaction design
+Design Systems: Scalable UI libraries, component-based design for cross-platform consistency
+User-Centered Testing: A/B testing, accessibility compliance, iterative improvements
+Interaction & Visual Design: Information architecture, visual hierarchy, motion design principles
+Front-End Knowledge: HTML, CSS, basic JavaScript for seamless design-to-development handoff
+Cross-Functional Collaboration: Working with developers, product managers, and stakeholders to align business goals with user needs
+Prototyping & Wireframing: Creating low-to-high fidelity prototypes to validate design concepts
+Competitive Analysis & Market Research: Identifying trends and user pain points to enhance product strategy
+Design Tools & Technologies:
+Figma, Microsoft Clarity, Visual Studio, Adobe After Effects, FigJam, InDesign, Keynote

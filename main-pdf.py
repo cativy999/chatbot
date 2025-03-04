@@ -19,7 +19,7 @@ def extract_text_from_pdf(pdf_file_path):
 
 
 # Extract the PDF text (can directly call this function in your script)
-pdf_path = "the-spoon.pdf"
+pdf_path = "Pei-Pei-Wang-KB.pdf"  # Replace with your PDF file path
 extracted_text = extract_text_from_pdf(pdf_path)
 
 # Save the extracted text to a file (optional)
@@ -45,8 +45,9 @@ if len(pdf_text) > max_prompt_length:
 
 # Define the PDF assistant template
 pdf_assistant_template = pdf_text + """
-You are an assistant that provides information based on the content of the PDF document.
-Your role is to answer questions by referencing the content of the document. If the question is unrelated or the answer isn't in the document, respond with, "I can't assist you with that, sorry!" 
+You are an assistant with expertise in providing information and answering questions about PEI PEI WANG. 
+Your role is to help users understand its features, services, and content. 
+If a question is not related to PEI PEI WANG , respond with, "I can't assist you with that, sorry!" 
 Question: {question} 
 Answer: 
 """
@@ -58,7 +59,7 @@ pdf_assistant_prompt_template = PromptTemplate(
 )
 
 # Use ChatOpenAI (adjust model as needed)
-llm = ChatOpenAI(model='gpt-4', temperature=0, max_tokens=256)
+llm = ChatOpenAI(model='gpt-4', temperature=0.4, max_tokens=300)
 
 # Create the LLM chain
 llm_chain = pdf_assistant_prompt_template | llm
@@ -94,7 +95,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template("index-pdf.html")
+    return render_template("index.html")
 
 
 @app.route("/chatbot", methods=["POST"])
